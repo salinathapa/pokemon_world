@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const OriginalPokemonPage = () => {
+const KantoPage = () => {
   const [pokemonList, setPokemonList] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -51,4 +51,4 @@ const OriginalPokemonPage = () => {
   );
 };
 
-export default OriginalPokemonPage;
+export default KantoPage;
