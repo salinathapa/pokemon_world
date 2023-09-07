@@ -1,7 +1,7 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink, Outlet } from 'react-router-dom'
 
-const PageWrapper = ({children}) => {
+const PageWrapper = () => {
   return (
     <>
       <header>
@@ -12,9 +12,7 @@ const PageWrapper = ({children}) => {
         </nav>
       </header>
 
-      <div>
-        {children}
-      </div>
+      <Outlet />
 
       <footer>
         Pokemon World
