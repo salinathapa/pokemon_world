@@ -1,4 +1,4 @@
 export { default as HomePage } from './HomePage';
-export { default as SuperherosPage } from './SuperherosPage';
-export { default as SuperheroPage } from './SuperheroPage';
+export { default as AllPokemonPage } from './AllPokemonPage';
+export { default as PokemonPage } from './PokemonPage';
 export { default as NotFoundPage } from './NotFoundPage';

@@ -3,8 +3,8 @@ import React from 'react'
 const HomePage = () => {
   return (
     <main>
-      <h1>Superhero Central</h1>
-      <h2>Where Heros Unite</h2>
+      <h1>Pokemon World</h1>
+      <h2>Unleash Your Inner Trainer</h2>
     </main>
   )
 }
