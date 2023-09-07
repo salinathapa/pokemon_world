@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 
-import { HomePage, AllPokemonPage, PokemonPage, NotFoundPage, SearchPokemonPage } from './pages'
+import { HomePage, OriginalPokemonPage, PokemonPage, NotFoundPage, SearchPokemonPage } from './pages'
 import { PageWrapper } from './components'
 
 const App = () => {
@@ -10,7 +10,7 @@ const App = () => {
       <PageWrapper>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/pokemon" element={<AllPokemonPage />} />
+          <Route path="/pokemon" element={<OriginalPokemonPage />} />
           <Route path="/pokemon/:id" element={<PokemonPage />} />
           <Route path="/search" element={<SearchPokemonPage />} />
           <Route path="*" element={<NotFoundPage />} />
