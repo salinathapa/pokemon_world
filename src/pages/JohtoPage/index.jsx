@@ -6,7 +6,7 @@ const JohtoPage = () => {
 
   async function fetchJohtoPokemon() {
     try {
-      const response = await fetch('https://pokeapi.co/api/v2/pokemon?limit=100&offset=151'); // Fetch the next 100 Pokémon after Kanto
+      const response = await fetch('https://pokeapi.co/api/v2/pokemon?limit=100&offset=151');
       const data = await response.json();
       const results = data.results;
 
