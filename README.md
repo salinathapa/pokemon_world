@@ -1,8 +1,8 @@
-# React + Vite
+# How to run
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+On your terminal
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ```git clone git@github.com:salinathapa/pokemon_world.git```
+- ```npm i``` to install the required libraries
+- ```npm run dev``` to run server
+- ```ctrl + click``` localhost link to open page in browser
