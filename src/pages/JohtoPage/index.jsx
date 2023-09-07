@@ -38,7 +38,7 @@ const JohtoPage = () => {
 
   return (
     <div>
-      <h1>Johto Pokémon</h1>
+      <h2>Johto Pokémon</h2>
       <div className="pokemon-list">
         {pokemonList.map((pokemon, index) => (
           <div key={index} className="pokemon-card">

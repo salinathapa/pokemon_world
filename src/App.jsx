@@ -4,6 +4,8 @@ import { Route, Routes } from 'react-router-dom'
 import { HomePage, PokemonGenerationsPage, KantoPage, JohtoPage, HoennPage, SinnohPage, UnovaPage, KalosPage, AlolaPage, GalarPage, PaldeaPage, PokemonPage, NotFoundPage, SearchPokemonPage } from './pages'
 import { PageWrapper } from './components'
 
+import './assets/App.css'
+
 const App = () => {
   return (
     <>

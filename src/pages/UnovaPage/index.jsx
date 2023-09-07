@@ -38,7 +38,7 @@ const UnovaPage = () => {
 
   return (
     <div>
-      <h1>Unova Pokémon</h1>
+      <h2>Unova Pokémon</h2>
       <div className="pokemon-list">
         {pokemonList.map((pokemon, index) => (
           <div key={index} className="pokemon-card">

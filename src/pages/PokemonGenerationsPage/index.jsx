@@ -2,8 +2,8 @@ import React from 'react'
 
 const PokemonGenerationsPage = () => {
   return (
-    <div>
-        <h1>Pokémon Generations</h1>
+    <main>
+        <h2>Pokémon Generations</h2>
         <ul>
         <li>
             <a href="/kanto">Generation 1 – Kanto</a>
@@ -33,7 +33,7 @@ const PokemonGenerationsPage = () => {
             <a href="/paldea">Generation 9 – Paldea</a>
         </li>
         </ul>
-  </div>
+  </main>
   )
 }
 

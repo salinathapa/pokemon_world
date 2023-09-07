@@ -10,10 +10,10 @@ const SearchPokemonPage = () => {
   };
 
   return (
-    <div>
+    <main>
       <PokemonForm onSearch={handleSearch} />
       <PokemonData pokemonName={pokemonName} />
-    </div>
+    </main>
   )
 }
 

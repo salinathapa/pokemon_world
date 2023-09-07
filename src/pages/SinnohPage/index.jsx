@@ -38,7 +38,7 @@ const SinnohPage = () => {
 
   return (
     <div>
-      <h1>Sinnoh Pokémon</h1>
+      <h2>Sinnoh Pokémon</h2>
       <div className="pokemon-list">
         {pokemonList.map((pokemon, index) => (
           <div key={index} className="pokemon-card">
