@@ -38,7 +38,7 @@ const OriginalPokemonPage = () => {
 
   return (
     <div>
-      <h1>Original 151 Pokémon</h1>
+      <h1>Generation 1 Pokémon</h1>
       <div className="pokemon-list">
         {pokemonList.map((pokemon, index) => (
           <div key={index} className="pokemon-card">

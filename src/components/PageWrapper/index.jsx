@@ -7,7 +7,7 @@ const PageWrapper = ({children}) => {
       <header>
         <nav>
           <NavLink to="/">Home</NavLink>
-          <NavLink to="/pokemon">Pokemon</NavLink>
+          <NavLink to="/pokemon">Pokemon Generations</NavLink>
           <NavLink to="/search">Search</NavLink>
         </nav>
       </header>
