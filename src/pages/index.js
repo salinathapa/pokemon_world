@@ -2,7 +2,7 @@ export { default as HomePage } from './HomePage';
 export { default as PokemonGenerationsPage } from './PokemonGenerationsPage';
 export { default as KantoPage } from './KantoPage';
 export { default as JohtoPage } from './JohtoPage';
-// export { default as HoenmPage } from './HoenmPage';
+// export { default as HoennPage } from './HoennPage';
 // export { default as SinnohPage } from './SinnohPage';
 // export { default as UnovaPage } from './UnovaPage';
 // export { default as KalosPage } from './KalosPage';
