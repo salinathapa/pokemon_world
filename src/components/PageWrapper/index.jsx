@@ -1,4 +1,4 @@
-import React, { Children } from 'react'
+import React from 'react'
 import { NavLink } from 'react-router-dom'
 
 const PageWrapper = ({children}) => {
@@ -8,6 +8,7 @@ const PageWrapper = ({children}) => {
         <nav>
           <NavLink to="/">Home</NavLink>
           <NavLink to="/pokemon">Pokemon</NavLink>
+          <NavLink to="/search">Search</NavLink>
         </nav>
       </header>
 
