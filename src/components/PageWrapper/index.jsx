@@ -1,8 +1,24 @@
-import React from 'react'
+import React, { Children } from 'react'
+import { NavLink } from 'react-router-dom'
 
-const PageWrapper = () => {
+const PageWrapper = ({children}) => {
   return (
-    <div>PageWrapper</div>
+    <>
+      <header>
+        <nav>
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="/superheros">Superheros</NavLink>
+        </nav>
+      </header>
+
+      <div>
+        {children}
+      </div>
+
+      <footer>
+        Superhero App
+      </footer>
+    </>
   )
 }
 
